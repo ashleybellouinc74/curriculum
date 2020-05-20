@@ -1,71 +1,73 @@
-# About Our Template
-
-Eyebeam's educational focus is to promote artist-led, STEAM based education. This template is intended for our teaching artists to document their lessons with a larger goal for their curriculum to be referenced or used more easily in classrooms, libraries, after school programs or anywhere STEAM programming can be offered. 
-
-This template is based off of NYC Department of Education's CS4All Blueprint to teach creative computing. For more information on the core components they advise teachers and classes focus on, and to give the students the competency to be better prepared to engage with more difficult STEM lessons, I highly encourage you to read about [their approach here](https://blueprint.cs4all.nyc/what-is-cs/).
-
-# TEMPLATE BELOW
-
 ## Class Title
+Controlling Visuals with Audio - An Introduction
 
 ## Authors
-Your name (please include collaborators or funding institutions that have supported this work) and links to your site or Github.
+Ashley Bellouin & Cassie Tarakajian
 
 ## Essential Questions
-Questions that lead to meaningful exploration of CS concepts and practices. Examples:
-- How can programming represent your ideas and beliefs?
-- How might we use math to express ourselves creatively?
-- How might we use computing to impact our community?
-- What information is my computer sharing about me or my online activity?
+- What are the basic components of sound? 
+- What are the basic components of video?
+- What feels like a natural way to interact with an instrument?
 
 ## Introduction
-Please provide a narrative of what the unit is about, and why we should learn it that is simple enough that a student could read and understand. Example: "In this workship we will be using ... to explore ... so that you have a better understanding of how ..."
+This workshop will focus on using Max to create an audio/visual instrument. Starting from a beginner's standpoint, we will introduce Max and cover the basics of the software, then focus on creating an interactive program that uses audio to control visuals. The audio can be either live input or prerecorded samples. At the end of the workshop, students should understand how to create their own audio/visual instruments that anyone can play through a few simple button presses, or by clapping their hands. 
 
 ### Target Audience / Prerequisite & Pre-Assessment
-What age range is this exercise designed for and what do students and teachers need to know or be able to do to be successful in the workshop? Any coding languages they should already be comfortable with, any frameworks or tools they should have installed before class.
+Age 14-18/beginner
+No prerequisites required. This course is designed for people who have never used Max before.
 
 ### Outcomes & Goals
-This can be easily answered by completing these example sentences:
-* In this workshop we will be… (soldering, setting up a RPi home network, making a wearable that communicates with….)
-* Students will walk away with a deeper understanding of…
+Students should walk away with a complete Max patch that uses audio to control visuals. 
 
 ### Pacing / Duration
-Number of total hours the unit will take in a typical workshop session(s). Please try to take into account transition time between instruction and hands on exercises if any prep is necessary.
+~ 2 hours total
 
-- Break down of the class schedule example: 
-  - :15 Overview, context, examples and vocabulary 
-  - :20 Instruction & hands on exercise 
-  - :15 Wrap-up discussion & sharing, reflection or journal and next steps
+- Break down of the class schedule: 
+  - :10 Check-ins
+  - :15 Introduction to Max
+  - :30 Audio in Max: live input, samples, scaling & analysis 
+  - :05 Stretch break!
+  - :30 Vizzie: visual effects, controlling effects with audio
+  - :20 Lab time to work on patches
+  - :10 Wrap up
 
 ## Materials Needed
-What hardware, software, or other materials will students or teachers need for lessons.
+Please have Max 8 installed on all computers before the start of class. 
 
 ### Exercises To Do Before Class
-What materials (readings, tasks, exercises) should students complete before class to be prepared for the lesson.
+No exercises required.
 
 ### Vocabulary (example)
-* Program: A procedure, or set of instructions, that performs a specific task when executed by a computer. 
-* Programming Language: The human-readable commands and syntax (or grammar rules) used to write programs. 
+- Patch: This refers to the programs that you create in Max.
+- Program: A procedure, or set of instructions, that performs a specific task when executed by a computer.
+- Programming Language: The human-readable commands and syntax (or grammar rules) used to write programs.
+- Graphical Programming Language: A programming language in which users create programs by manipulating elements using a GUI (graphical user interface) rather than using text.
+- User Interface (UI): The means by which the user and a computer system interact.
 
 ## Exercise Descriptions
-Descriptions of each exercise or phase of class. Similar to pacing but with more description of steps.
+For the final lab time, experiement with different sounds and visual effects. Which effects should be changing and which should be static? How do you want to interact with your patch? Determine the interaction you want, then create the UI. At the end of class be ready to explain what you did and why.
 
 ## Student Reflections, Takeaways & Next Steps
-Additional materials for the students to leave with that can help them dig deeper into the subject or additional exercises and challenges to help students progress their knowledge to the next level and gain mastery of the subject through independent study.
+You can continue learning Max with these Resources:
 
-* Multiple Project Exit Points: an idea of high-medium-low projects so students are locked into one end product.
-  * First Steps - a simple exercise
-  * Next Steps - medium exercise
-  * Big Steps - a challenge or open ended study
-* Presentation: how might students share their work? With peers, outside world? What media or platforms could/should be referenced to students to encourage sharing (Instagram, Tumblr...)? 
-* Reflection: reflection questions that ask students to think about CS concepts and practices. How can students express what they’ve learned in some creative way?
+- Programming Max: Structuring Interactive Software for Digital Arts (Kadenze Course): https://www.kadenze.com/courses/programming-max-structuring-interactive-software-for-digital-arts/info
+- Delicious Max Tutorials: https://www.youtube.com/user/dude837
+- Max/MSP/Jitter for Music: https://www.amazon.com/Max-MSP-Jitter-Music-Interactive/dp/0190243740/ref=dp_ob_title_bk
+- 20 Objects: http://darwingrosse.com/20Objects/
+- Max 8 Tutorials (by dearjohnreed): https://www.youtube.com/playlist?list=PLVIa8UkRzErsL95NoKH0QFaoLVMFqxbnA
+- We also recommend looking into Max For Live and Ableton Live as companion tools
+
+Need help with your patch? Our online forums are a great way to get help from fellow Max users: https://cycling74.com/forums
 
 ## Post Session
 
-### References
-Include any sources cited, but not directly linked in the unit.
-
 ### Implementation Guidance & Teaching Reflection  
-e.g. Please provide some guidance based on experience delivering the unit and potential modifications might you are considering making for future iterations of this unit. This is an opportunity for you as the unit author to give teachers practical guidance.
+- The main goal of this course should be to have fun and inspire the students! Attention spans can quickly diminish if too much time is spent instructing. Instead of lecturing, make sure students quickly start creating patches.
+
+- Students learn better when they make their own patches, instead of playing with pre-built ones. Have them patch along in the beginning, then make sure to have dedicated lab time where they can create their own work.
+
+- A lot of class time can be wasted finding audio and video samples online. Provide a curated selection of samples that they can work with. 
+
+- Give students the opportunity to be teachers. Have them explain their work to each other. 
 
 ***With thanks and acknowledgement, we were inspired by the curriculum templates shared by [NYCDOE](http://blueprint.cs4all.nyc/units/40/) and [NYC Open Data](https://github.com/datapolitan/Data_Analytics_Classes/blob/gh-pages/Excel_Tools_Summarizing_Data.md)***
